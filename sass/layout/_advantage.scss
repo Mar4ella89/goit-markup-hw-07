@@ -1,0 +1,39 @@
+.advantage-card {
+  display: flex;
+}
+
+.advantage-card__item {
+  flex-basis: 270px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.advantage-card__subtitle {
+  font-size: inherit;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+
+  color: var(--secondary-color);
+}
+
+.advantage-card__text {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.advantage-card__area {
+  width: 270px;
+  height: 120px;
+  background-color: var(--tertiary-background-color);
+  margin-bottom: 30px;
+  border-radius: 4px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
